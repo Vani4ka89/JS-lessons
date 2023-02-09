@@ -4,10 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="new project js lesson_1">
+    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="js lesson_1 homework">
+      <change afterPath="$PROJECT_DIR$/lesson_0/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_0/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/js/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lesson_2/styles/style.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,20 +39,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "DefaultHtmlFileTemplate": "HTML File",
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "WebServerToolWindowFactoryState": "false",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "settings.editor.selected.configurable": "preferences.editor",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.editor&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -64,7 +70,12 @@
       <workItem from="1675522321809" duration="2025000" />
       <workItem from="1675525399729" duration="776000" />
       <workItem from="1675526207773" duration="8000" />
-      <workItem from="1675772874130" duration="7596000" />
+      <workItem from="1675772874130" duration="10835000" />
+      <workItem from="1675945910882" duration="17000" />
+      <workItem from="1675946035076" duration="1337000" />
+      <workItem from="1675947520511" duration="687000" />
+      <workItem from="1675969403397" duration="3525000" />
+      <workItem from="1675972963975" duration="3235000" />
     </task>
     <task id="LOCAL-00001" summary="new project js lesson_1">
       <created>1675524338203</created>
@@ -87,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675525758669</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="js lesson_1 homework">
+      <created>1675781563330</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675781563330</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -95,6 +113,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new project js lesson_1" />
-    <option name="LAST_COMMIT_MESSAGE" value="new project js lesson_1" />
+    <MESSAGE value="js lesson_1 homework" />
+    <option name="LAST_COMMIT_MESSAGE" value="js lesson_1 homework" />
   </component>
 </project>
