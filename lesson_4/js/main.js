@@ -8,25 +8,23 @@ console.log(figure(3, 9));
 
 // - створити функцію яка обчислює та повертає площу кола з радіусом r
 function getCircleSquare(r) {
-    let pi = 3.14;
-    return pi * r * r;
+    return Math.PI * r * r;
 }
 
 console.log(getCircleSquare(3));
 
 // - створити функцію яка обчислює та повертає площу циліндру висотою h, та радіутом r
 
-function cylinderSquare(h, r) {
-    const PI = 3.14;
-    return (2 * PI * r * r) + (2 * PI * r * h);
+function getCylinderSquare(h, r) {
+    return (2 * Math.PI * r * r) + (2 * Math.PI * r * h);
 }
 
-console.log(cylinderSquare(3, 2));
+console.log(getCylinderSquare(3, 2));
 
 // - створити функцію яка приймає масив та виводить кожен його елемент
 
-let users = [
-    {name: 'vasya', age: 31, status: false},
+let usersMy = [
+    {name: 'vasya', age: 32, status: false},
     {name: 'petya', age: 30, status: true},
     {name: 'kolya', age: 29, status: true},
     {name: 'olya', age: 28, status: false},
@@ -53,7 +51,7 @@ function getArr(array) {
     }
 }
 
-getArr(users);
+getArr(usersMy);
 getArr(coursesAndDurationArray);
 
 // - створити функцію яка створює параграф з текстом. Текст задати через аргумент
@@ -128,8 +126,25 @@ function minNum(array) {
 
 console.log(minNum(num));
 // - створити функцію sum(arr)яка приймає масив чисел, сумує значення елементів масиву та повертає його. Приклад sum([1,2,10]) //->13
-// - створити функцію swap(arr,index1,index2). Функція міняє місцями заняення у відаовідних індексах
+function sum(arr) {
+    let box = 0;
+    for (let item of arr) {
+        box += item;
+    }
+    return box;
+}
+
+console.log(sum([3, 7, 8, 2]));
+// - створити функцію swap(arr,index1,index2). Функція міняє місцями значення у відповідних індексах
 // Приклад  swap([11,22,33,44],0,1) //=> [22,11,33,44]
+function swap(arr,index1,index2) {
+    let x = arr[index1];
+    arr[index1] = arr[index2];
+    arr[index2] = x;
+    return arr;
+}
+
+console.log(swap([5, 6, 8, 9], 3, 0));
 // - Написати функцію обміну валюти exchange(sumUAH,currencyValues,exchangeCurrency)
 // Приклад exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD') // => 250
 // function exchange (sumUAH, currencyValues, exchangeCurrency) {
