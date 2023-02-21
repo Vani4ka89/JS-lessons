@@ -156,3 +156,13 @@ console.log(swap([5, 6, 8, 9], 3, 0));
 //
 //
 // exchange(10000,[{currency:'USD',value:40},{currency:'EUR',value:42}],'USD');
+
+function exchange (sumUAN, currencyValues, exchangeCurrency) {
+    for (const item of currencyValues) {
+        if (item['currency'] === exchangeCurrency) {
+            return  sumUAN / item['value'];
+        }
+    }
+}
+
+console.log(exchange(10000, [{currency: 'USD', value: 40}, {currency: 'EUR', value: 42}], 'USD'));
