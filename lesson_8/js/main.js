@@ -76,7 +76,7 @@ function Car (model, prodCompany, year, maxSpeed, vEngine) {
     this.maxSpeed = maxSpeed;
     this.vEngine = vEngine;
     this.drive = function () {
-        console.log(`їдемо зі швидкістю ${maxSpeed} на годину`);
+        return `їдемо зі швидкістю ${this.maxSpeed} на годину`
     }
     this.info = function () {
 
