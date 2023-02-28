@@ -92,8 +92,8 @@ function Car (model, prodCompany, year, maxSpeed, vEngine) {
     }
 }
 
-const car_1 = new Car('accord', 'honda', '2015', 280, 3500)
-console.log(car_1);
+const cars = new Car('accord', 'honda', '2015', 280, 3500)
+console.log(cars);
 
 // - (Те саме, тільки через клас)
 // Створити клас який дозволяє створювати об'єкти car, з властивостями модель, виробник, рік випуску, максимальна швидкість, об'єм двигуна. додати в об'єкт функції:
@@ -103,8 +103,17 @@ console.log(car_1);
 // -- changeYear (newValue) - змінює рік випуску на значення newValue
 // -- addDriver (driver) - приймає об'єкт який "водій" з довільним набором полів, і додає його в поточний об'єкт car
 //
-//
-//
+
+class Auto {
+    constructor(model, prodCompany, year, maxSpeed, vEngine) {
+        Car.call(this, model, prodCompany, year, maxSpeed, vEngine)
+    }
+}
+
+const auto = new Auto('A4', 'audi', 2011, 260, 2000);
+console.log(auto);
+
+
 // -створити класс/функцію конструктор попелюшка з полями ім'я, вік, розмір ноги. Створити масив з 10 попелюшок.
 // Сторити об'єкт класу "принц" за допомоги класу який має поля ім'я, вік, туфелька яку він знайшов.
 //     За допомоги циклу знайти яка попелюшка повинна бути з принцом.
