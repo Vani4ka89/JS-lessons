@@ -5,18 +5,19 @@
 // - клонувати його повністю, та додати клон в body.
 
 let div = document.createElement('div');
+div.innerText = 'Go'
 div.classList.add('wrap', 'collapse', 'alpha', 'beta');
 div.style.background = 'grey';
 div.style.color = 'yellow';
-div.style.fontSize = '24px';
-document.body.appendChild(div);
-document.body.appendChild(div.cloneNode(true));
+div.style.fontSize = '36px';
+document.body.append(div, div.cloneNode(true));
+// document.body.appendChild(div.cloneNode(true));
 
 //
 // - Є масив:
 // Зробити ul в середині якої будуть лежати елементи масиву (кожен в своєму li)
 
-let arr = ['Main','Products','About us','Contacts'];
+let arr = ['Main', 'Products', 'About us', 'Contacts'];
 
 let ul = document.createElement('ul');
 document.body.appendChild(ul);
@@ -24,38 +25,56 @@ for (const item of arr) {
     let li = document.createElement('li');
     li.innerText = `${item}`;
     ul.appendChild(li)
-
 }
 
 
 //
 // - Є масив
-// let coursesAndDurationArray = [
-//     {title: 'JavaScript Complex', monthDuration: 5},
-//     {title: 'Java Complex', monthDuration: 6},
-//     {title: 'Python Complex', monthDuration: 6},
-//     {title: 'QA Complex', monthDuration: 4},
-//     {title: 'FullStack', monthDuration: 7},
-//     {title: 'Frontend', monthDuration: 4}
-// ];
+let coursesAndDurationArray = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
 // Для кожного елементу масиву зробити блок в якому вивести інформацію про title та monthDuration
 // Завдання робити через цикли.
+
+for (const item of coursesAndDurationArray) {
+    const box = document.createElement('div');
+    box.innerText = `title: ${item.title} -- monthDuration: ${item.monthDuration}`;
+    document.body.appendChild(box);
+}
 //
 // =========================
 //
 //     - Є масив
-// let coursesAndDurationArray = [
-//     {title: 'JavaScript Complex', monthDuration: 5},
-//     {title: 'Java Complex', monthDuration: 6},
-//     {title: 'Python Complex', monthDuration: 6},
-//     {title: 'QA Complex', monthDuration: 4},
-//     {title: 'FullStack', monthDuration: 7},
-//     {title: 'Frontend', monthDuration: 4}
-// ];
+let coursesAndDurationArray2 = [
+    {title: 'JavaScript Complex', monthDuration: 5},
+    {title: 'Java Complex', monthDuration: 6},
+    {title: 'Python Complex', monthDuration: 6},
+    {title: 'QA Complex', monthDuration: 4},
+    {title: 'FullStack', monthDuration: 7},
+    {title: 'Frontend', monthDuration: 4}
+];
 //
 //
 // За допомоги скріпта для кожного елементу масиву зробити <div class='item'> ,  в якому буде <h1 class='heading'>  з title  елементу, та <p class='description'> з monthDuration елементу.
 //     Завдання робити через цикли.
+
+for (const item of coursesAndDurationArray2) {
+    const div = document.createElement('div');
+    div.classList.add('item');
+    const h2 = document.createElement('h2');
+    h2.classList.add('heading');
+    h2.innerText = `${item.title}`;
+    const p = document.createElement('p');
+    p.classList.add('description');
+    p.innerText = `${item.monthDuration}`;
+    document.body.appendChild(div);
+    div.append(h2, p);
+}
 //
 // ==========================
 //
