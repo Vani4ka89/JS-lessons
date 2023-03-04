@@ -99,6 +99,11 @@ let allUsers = [
     {name: 'George', username: 'ge2223', password: 1434820},
     {name: 'Joni', username: 'joni1990', password: 7678567}
 ];
+
+// for (const user of allUsers) {
+//     console.log(user.password);
+// }
+
 console.log(allUsers[0]['password']);
 console.log(allUsers[1]['password']);
 console.log(allUsers[2]['password']);

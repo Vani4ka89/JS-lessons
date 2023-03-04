@@ -110,7 +110,7 @@ console.log(cars);
 
 class Auto {
     constructor(model, prodCompany, year, maxSpeed, vEngine) {
-        Car.call(this, model, prodCompany, year, maxSpeed, vEngine)
+        Car.call(this, arguments);
     }
     drive () {
         return `їдемо зі швидкістю ${this.maxSpeed} на годину`

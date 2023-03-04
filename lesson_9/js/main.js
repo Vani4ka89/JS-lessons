@@ -208,6 +208,27 @@ let coursesArray = [
 // Створити для кожного елементу масиву свій блок, блок розділити блоками, в яких будуть зберігатись значення окремих властивостей, для властивості modules зробити список з елементами
 // Приклад структири знаходиться у файлі example.png який лежить в папці з поточним фйлом
 // ------------------
+const wrap = document.createElement('div');
+wrap.classList.add('wrapper');
+document.body.appendChild(wrap);
+for (const element of coursesArray) {
+    const block = document.createElement('div');
+    document.body.appendChild(block);
+    const title = document.createElement('div');
+    const monthDuration = document.createElement('div');
+    const hourDuration = document.createElement('div');
+    const blockWithList = document.createElement('div');
+    const modules = document.createElement('ul');
+    block.append(title, monthDuration, hourDuration, blockWithList);
+    blockWithList.appendChild(modules);
+    for (const key in element) {
+        const li = document.createElement('li');
+        li.innerText = `${element[key]}`
+        modules.appendChild(li);
+    }
+    wrap.appendChild(block);
+}
+
 //
 //     - Створити довільний елемент з id = text та створити кнопку.Використовуючи JavaScript, зробіть так, щоб при натисканні на кнопку зникав елемент з id="text".
 //
