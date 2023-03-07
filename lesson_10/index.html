@@ -7,57 +7,46 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
     <style>
-
-
-
-        /*.container {*/
-        /*    display: flex;*/
-        /*    justify-content: center;*/
-        /*}*/
-        /*input, button {*/
-        /*    display: block;*/
-        /*    margin: auto;*/
-        /*    margin-bottom: 20px;*/
-        /*}*/
-        /*.info {*/
-        /*    margin: 30px auto;*/
-        /*}*/
-        
-        
-        .box {
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
+        fieldset {
+            width: 250px;
+            margin: 0 auto;
+            text-align: justify;
+            padding-top: 15px;
         }
 
-        .box-number {
-            width: 200px;
-            height: 200px;
-            background: #072757;
-            color: #fff;
-            font-size: 60px;
-            text-align: center;
-            line-height: 200px;
+        input {
+            margin-bottom: 20px;
         }
 
+        button {
+            padding: 5px;
+        }
+
+        .info {
+            margin-top: 30px;
+        }
     </style>
 </head>
 <body>
 
-<!--<div class="container">-->
-<!--    <fieldset>-->
-<!--        <form>-->
-<!--            <input type="text" name="firstname" placeholder="enter your name" value="">-->
-<!--            <input type="text" name="surname" placeholder="enter your surname" value="">-->
-<!--            <input type="number" name="age" placeholder="enter your age" value="">-->
-<!--            <button name="button">Enter this BUTTON</button>-->
-<!--        </form>-->
-<!--    </fieldset>-->
-<!--</div>-->
-
-<div class="box">
-    <div class="box-number">0</div>
+<div class="container">
+    <fieldset>
+        <form>
+            <label for="name">
+                Name:
+                <input type="text" name="firstname" id="name" placeholder="enter your name" value="" required>
+            </label>
+            <label for="surname">
+                Surname:
+                <input type="text" name="surname" id="surname" placeholder="enter your surname" value="" required>
+            </label>
+            <label for="age">
+                Age:
+                <input type="number" name="age" id="age" placeholder="enter your age" value="" required>
+            </label>
+            <button name="button">Enter this BUTTON</button>
+        </form>
+    </fieldset>
 </div>
 
 
