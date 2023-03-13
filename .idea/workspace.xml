@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not">
-      <change afterPath="$PROJECT_DIR$/mini project/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mini project/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -82,7 +78,7 @@
       <workItem from="1677619059974" duration="301000" />
       <workItem from="1677666006498" duration="14688000" />
       <workItem from="1677928271886" duration="7380000" />
-      <workItem from="1678028059239" duration="48394000" />
+      <workItem from="1678028059239" duration="49020000" />
     </task>
     <task id="LOCAL-00001" summary="new project js lesson_1">
       <created>1675524338203</created>
@@ -196,7 +192,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678453098316</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not">
+      <created>1678521525762</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1678521525762</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -216,6 +219,7 @@
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework almost done&#10;js lesson_9 homework not full.&#10;js lesson_10 homework" />
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework almost done&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
-    <option name="LAST_COMMIT_MESSAGE" value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
+    <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
+    <option name="LAST_COMMIT_MESSAGE" value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
   </component>
 </project>
