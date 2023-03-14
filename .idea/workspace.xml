@@ -4,22 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done...&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not...">
-      <change beforePath="$PROJECT_DIR$/lesson_0/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_0/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_1/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_1/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_10/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_10/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_12/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_12/js/us-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/js/us-details.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_2/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_2/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_4/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_4/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_5/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_5/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_6/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_6/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_8/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_8/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lesson_9/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini project/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini project/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini project/js/post.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini project/js/post.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini project/js/user.js" beforeDir="false" afterPath="$PROJECT_DIR$/mini project/js/user.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini project/styles/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/mini project/styles/style.css" afterDir="false" />
+    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="start to do mini_project">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,6 +82,8 @@
       <workItem from="1677928271886" duration="7380000" />
       <workItem from="1678028059239" duration="49020000" />
       <workItem from="1678619360170" duration="55663000" />
+      <workItem from="1678801958796" duration="1408000" />
+      <workItem from="1678803441441" duration="18000" />
     </task>
     <task id="LOCAL-00001" summary="new project js lesson_1">
       <created>1675524338203</created>
@@ -230,7 +218,14 @@
       <option name="project" value="LOCAL" />
       <updated>1678791966330</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="start to do mini_project">
+      <created>1678802241125</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1678802241125</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -253,6 +248,7 @@
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not" />
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not..." />
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done...&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not..." />
-    <option name="LAST_COMMIT_MESSAGE" value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done...&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not..." />
+    <MESSAGE value="start to do mini_project" />
+    <option name="LAST_COMMIT_MESSAGE" value="start to do mini_project" />
   </component>
 </project>

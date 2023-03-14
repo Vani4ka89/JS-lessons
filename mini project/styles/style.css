@@ -1,12 +1,21 @@
+/************************************GENERAL*****************************************/
 body {
     margin: 0;
     padding: 0;
-    height: 100vh;
     box-sizing: border-box;
+    height: 100vh;
     background-color: lightgrey;
     font-family: monospace;
     font-size: 16px;
 }
+
+.flex-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*************************************USERS*******************************************/
 
 .wrapper {
     height: 100%;
@@ -14,7 +23,7 @@ body {
     margin: 0 auto;
     padding: 15px;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     flex-wrap: wrap;
 }
 
@@ -32,7 +41,7 @@ body {
 
 a {
     text-decoration: none;
-    background: darkblue;
+    background: rgba(0, 0, 139, 0.82);
     font-size: 14px;
     align-self: stretch;
     text-align: center;
@@ -46,4 +55,39 @@ a {
 a:hover {
     background: yellowgreen;
     color: darkblue;
+}
+
+/******************************************DETAILS*************************************/
+
+.wrapper-2 {
+    height: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.info-block {
+    /*border: 2px solid darkblue;*/
+    flex-basis: 18%;
+}
+
+.info-block:not(:first-child) {
+    /*flex-basis: 22%;*/
+    /*flex-grow: 0;*/
+}
+
+button {
+    align-self: center;
+    cursor: pointer;
+}
+/******************************************POSTS***************************************/
+
+.wrapper-3 {
+    height: 100%;
+    max-width: 1200px;
+    padding: 15px;
 }
