@@ -15,13 +15,16 @@ body {
     align-items: center;
 }
 
+.wrap-params {
+    height: 100%;
+    max-width: 1200px;
+    padding: 15px;
+}
+
 /*************************************USERS*******************************************/
 
 .wrapper {
-    height: 100%;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 15px;
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -60,10 +63,7 @@ a:hover {
 /******************************************DETAILS*************************************/
 
 .wrapper-2 {
-    height: 100%;
-    max-width: 1200px;
     margin: 0 auto;
-    padding: 15px;
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -87,7 +87,4 @@ button {
 /******************************************POSTS***************************************/
 
 .wrapper-3 {
-    height: 100%;
-    max-width: 1200px;
-    padding: 15px;
 }
