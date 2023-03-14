@@ -5,18 +5,18 @@
 
 
 fetch('http://jsonplaceholder.typicode.com/users')
-.then(value => value.json())
-.then(users => {
-    console.log(users);
-    let list = document.createElement('ul');
-    let wrap = document.getElementsByClassName('wrapper')[0];
-    wrap.appendChild(list);
-    for (const user of users) {
-        let item = document.createElement('li');
-        item.innerText = `${user.id}. ${user.name}`;
-        let a = document.createElement('a');
-        a.innerText = 'Details';
-        a.href = `user-details.html?user=${JSON.stringify(user)}`;
-        list.append(item, a);
-    }
-})
+    .then(value => value.json())
+    .then(users => {
+        console.log(users);
+        let list = document.createElement('ul');
+        let wrap = document.getElementsByClassName('wrapper')[0];
+        wrap.appendChild(list);
+        for (const user of users) {
+            let item = document.createElement('li');
+            item.innerText = `${user.id}. ${user.name}`;
+            let a = document.createElement('a');
+            a.innerText = 'Details';
+            a.href = `user-details.html?user_id=${user.id}`;
+            list.append(item, a);
+        }
+    })
