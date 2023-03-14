@@ -24,7 +24,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${user.id}/posts`)
                     item.innerText = `${post.title}`;
                     let a = document.createElement('a');
                     a.innerText = 'Detail';
-                    a.href = `post-details.html?post=${JSON.stringify(post)}`;
+                    a.href = `post-details.html?postId=${post.id}`;
                     list.append(item, a);
                 }
             })

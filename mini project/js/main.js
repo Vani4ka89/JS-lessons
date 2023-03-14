@@ -6,19 +6,19 @@
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(value => value.json())
     .then(users => {
-        console.log(users);
-        const wrap = document.querySelector('.wrapper');
+        // console.log(users);
+        const wrapper = document.getElementsByClassName('wrapper')[0];
         for (const user of users) {
-            const blockWithUser = document.createElement('div');
-            blockWithUser.classList.add('user-block');
-            blockWithUser.innerText = `${user.id}.  ${user.name}`;
+            const userBlock = document.createElement('div');
+            userBlock.classList.add('user-block');
+            userBlock.innerText = `${user.id}.  ${user.name}`;
 
             const a = document.createElement('a');
             a.innerText = 'more info';
             a.href = `user-details.html?user=${JSON.stringify(user)}`;
 
-            blockWithUser.appendChild(a);
-            wrap.appendChild(blockWithUser);
+            userBlock.appendChild(a);
+            wrapper.append(userBlock);
         }
     })
 

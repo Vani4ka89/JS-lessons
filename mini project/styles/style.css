@@ -1,36 +1,49 @@
-body{
+body {
+    margin: 0;
+    padding: 0;
     height: 100vh;
+    box-sizing: border-box;
     background-color: lightgrey;
     font-family: monospace;
     font-size: 16px;
 }
 
 .wrapper {
-    max-width: 600px;
+    height: 100%;
+    max-width: 1200px;
     margin: 0 auto;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .user-block {
-    margin-bottom: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-basis: 45%;
+    flex-grow: 0;
+    height: 35px;
     padding: 3px;
     border: 2px solid darkblue;
     border-radius: 10px;
-    display: flex;
-    justify-content: space-between;
 }
 
 a {
     text-decoration: none;
     background: darkblue;
+    font-size: 14px;
+    align-self: flex-end;
     color: yellow;
-    padding: 3px;
+    padding: 0 3px;
     cursor: pointer;
     border: 1px solid black;
     border-radius: 7px;
     transition: all 300ms ease;
 }
 
-a:hover{
+a:hover {
     background: yellowgreen;
     color: darkblue;
 }
