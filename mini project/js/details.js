@@ -10,36 +10,35 @@ const userId = url.searchParams.get('userId');
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(value => value.json())
     .then(user => {
-        const userInfo = [];
+        const mainBlock = document.getElementsByClassName('wrapper-2')[0];
 
         function getInfoFromUser(user) {
             for (const key in user) {
                 if (typeof user[key] === 'object') {
                     getInfoFromUser(user[key]);
                 } else {
-                    userInfo.push(`${key}: ${user[key]}`);
+                    const infoBlock = document.createElement('div');
+                    infoBlock.classList.add('info-block');
+                    infoBlock.innerText = `${key}: ${user[key]}`;
+                    mainBlock.appendChild(infoBlock);
                 }
             }
         }
 
         getInfoFromUser(user);
-        console.log(userInfo);
-
-        const wrap = document.getElementsByClassName('wrapper-2')[0];
-        for (const info of userInfo) {
-            const infoBlock = document.createElement('div');
-            infoBlock.classList.add('info-block');
-            infoBlock.innerText = `${info}`;
-            wrap.appendChild(infoBlock);
-        }
 
         fetch(`https://jsonplaceholder.typicode.com/users/${userId}/posts`)
             .then(value => value.json())
             .then(posts => {
+                const titles = document.getElementsByClassName('post-block')[0];
+                const container = document.getElementsByClassName('container')[0];
+                const list = document.createElement('ul');
+                list.classList.add('list');
                 const btn = document.createElement('button');
                 btn.innerText = 'post of current user';
-                const list = document.createElement('ul');
-                wrap.append(btn, list);
+
+                container.appendChild(btn);
+                titles.appendChild(list);
 
                 const showPosts = function () {
                     for (const post of posts) {
@@ -48,7 +47,8 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                         const a = document.createElement('a');
                         a.innerText = 'detail';
                         a.href = `post-details.html?postId=${post.id}`;
-                        list.append(item, a);
+                        list.appendChild(item);
+                        item.appendChild(a);
                     }
                     // btn.removeEventListener('click', showPosts);
                     btn.style.display = 'none';

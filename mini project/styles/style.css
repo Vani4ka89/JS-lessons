@@ -61,29 +61,61 @@ a:hover {
 }
 
 /******************************************DETAILS*************************************/
+.container {
+    max-width: 100vw;
+    height: 100vh;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
 
 .wrapper-2 {
-    margin: 0 auto;
+    width: 100%;
+    height: 35%;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
+    align-items: flex-start;
     flex-wrap: wrap;
 }
 
-.info-block {
-    /*border: 2px solid darkblue;*/
-    flex-basis: 18%;
+.post-block {
+    width: 100%;
 }
 
-.info-block:not(:first-child) {
-    /*flex-basis: 22%;*/
-    /*flex-grow: 0;*/
+.post-block .list {
+    /*padding-left: 0;*/
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-self: center;
+}
+
+.list li {
+    flex-basis: 50%;
+}
+
+.info-block {
+    margin-left: 10px;
+    flex-basis: 18%;
+    text-align: center;
 }
 
 button {
+    width: 135px;
     align-self: center;
+    background: darkblue;
+    color: yellow;
     cursor: pointer;
+    transition: all 300ms ease;
+    border: 1px solid darkblue;
+    border-radius: 5px;
 }
+
+button:hover {
+    background: yellowgreen;
+    color: darkblue;
+}
+
 /******************************************POSTS***************************************/
 
 .wrapper-3 {
