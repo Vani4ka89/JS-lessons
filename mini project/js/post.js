@@ -8,7 +8,7 @@ const postId = url.searchParams.get('postId');
 fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
     .then(value => value.json())
     .then(post => {
-        const wrap = document.getElementsByClassName('wrapper-3')[0];
+        const wrap = document.getElementsByClassName('post-info')[0];
         const p = document.createElement('p');
         p.innerText = `${post.body}`;
         wrap.appendChild(p);

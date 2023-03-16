@@ -13,6 +13,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             userBlock.innerText = `${user.id}.  ${user.name}`;
 
             const a = document.createElement('a');
+            a.classList.add('reference');
             a.innerText = 'more info';
             a.href = `user-details.html?userId=${user.id}`;
 

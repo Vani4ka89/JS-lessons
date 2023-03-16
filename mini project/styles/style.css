@@ -38,19 +38,33 @@ body {
     flex-grow: 0;
     height: 35px;
     padding: 3px;
-    border: 2px solid rgba(0, 0, 139, 0.5);
-    border-radius: 10px;
+    border: 2px groove;
+    border-radius: 15px;
+}
+
+.reference {
+    background: darkblue;
+    font-size: 14px;
+    transition: all 300ms ease;
+    border: outset;
+}
+
+.reference:hover {
+    background: yellowgreen;
+    color: darkblue;
+    min-width: 100px;
 }
 
 a {
+    padding: 0 6px;
     text-decoration: none;
-    background: rgba(0, 0, 139, 0.82);
-    font-size: 14px;
-    align-self: stretch;
+    background: rgba(129, 129, 185, 0.82);
+    font-size: 11px;
+    /*align-self: stretch;*/
     text-align: center;
     color: yellow;
     cursor: pointer;
-    border: 1px solid black;
+    border: 1px solid transparent;
     border-radius: 7px;
     transition: all 300ms ease;
 }
@@ -71,19 +85,21 @@ a:hover {
 }
 
 .wrapper-2 {
-    width: 100%;
+    width: 99%;
     height: 35%;
     display: flex;
-    align-items: flex-start;
+    justify-content: space-around;
+    align-items: center;
     flex-wrap: wrap;
+    border: 2px groove;
 }
 
 .post-block {
+    margin-top: 50px;
     width: 100%;
 }
 
 .post-block .list {
-    /*padding-left: 0;*/
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -95,20 +111,20 @@ a:hover {
 }
 
 .info-block {
-    margin-left: 10px;
     flex-basis: 18%;
     text-align: center;
 }
 
 button {
     width: 135px;
+    padding: 5px;
     align-self: center;
     background: darkblue;
     color: yellow;
     cursor: pointer;
     transition: all 300ms ease;
-    border: 1px solid darkblue;
-    border-radius: 5px;
+    border: outset;
+    border-radius: 15px;
 }
 
 button:hover {
@@ -119,4 +135,17 @@ button:hover {
 /******************************************POSTS***************************************/
 
 .wrapper-3 {
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.post-info {
+    padding: 0 40px;
+    border: 2px groove;
+}
+
+.post-info ul {
+    padding-left: 0;
 }

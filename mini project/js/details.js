@@ -10,6 +10,7 @@ const userId = url.searchParams.get('userId');
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(value => value.json())
     .then(user => {
+        console.log(user);
         const mainBlock = document.getElementsByClassName('wrapper-2')[0];
 
         function getInfoFromUser(user) {
@@ -35,7 +36,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                 const list = document.createElement('ul');
                 list.classList.add('list');
                 const btn = document.createElement('button');
-                btn.innerText = 'post of current user';
+                btn.innerText = 'posts of current user';
 
                 container.appendChild(btn);
                 titles.appendChild(list);
@@ -45,7 +46,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                         const item = document.createElement('li');
                         item.innerText = `${post.title}`;
                         const a = document.createElement('a');
-                        a.innerText = 'detail';
+                        a.innerText = 'details';
                         a.href = `post-details.html?postId=${post.id}`;
                         list.appendChild(item);
                         item.appendChild(a);
