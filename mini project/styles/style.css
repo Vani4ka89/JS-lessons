@@ -80,18 +80,19 @@ a:hover {
     height: 100vh;
     padding: 10px;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     flex-direction: column;
 }
 
 .wrapper-2 {
     width: 99%;
     height: 35%;
+    margin-top: 50px;
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    border: 2px groove;
+    border: 5px groove;
 }
 
 .post-block {
@@ -111,8 +112,10 @@ a:hover {
 }
 
 .info-block {
+    min-height: 56px;
     flex-basis: 18%;
     text-align: center;
+    border: inset;
 }
 
 button {
@@ -123,7 +126,7 @@ button {
     color: yellow;
     cursor: pointer;
     transition: all 300ms ease;
-    border: outset;
+    border: 3px outset;
     border-radius: 15px;
 }
 
