@@ -36,7 +36,8 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                 const list = document.createElement('ul');
                 list.classList.add('list');
                 const btn = document.createElement('button');
-                btn.innerText = 'posts of current user';
+                btn.classList.add('post-btn');
+                btn.innerText = 'post of current user'.toUpperCase();
 
                 container.appendChild(btn);
                 titles.appendChild(list);

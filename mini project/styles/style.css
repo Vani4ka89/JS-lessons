@@ -36,42 +36,50 @@ body {
     align-items: center;
     flex-basis: 45%;
     flex-grow: 0;
-    height: 35px;
+    height: 36px;
     padding: 3px;
+    color: darkblue;
     border: 2px groove;
     border-radius: 15px;
+    box-shadow: 5px 5px 5px darkblue;
+}
+
+.user-block:hover {
+    border: 2px solid darkblue;
 }
 
 .reference {
-    background: darkblue;
+    background: lightgrey;
     font-size: 14px;
     transition: all 300ms ease;
-    border: outset;
+    border: 2px outset darkgrey;
+    color: black;
+    position: relative;
+    top: 12px;
 }
 
 .reference:hover {
-    background: yellowgreen;
-    color: darkblue;
+    background: darkblue;
+    color: greenyellow;
     min-width: 100px;
 }
 
 a {
     padding: 0 6px;
     text-decoration: none;
-    background: rgba(129, 129, 185, 0.82);
+    background: lightgrey;
     font-size: 11px;
-    /*align-self: stretch;*/
     text-align: center;
-    color: yellow;
+    color: black;
     cursor: pointer;
-    border: 1px solid transparent;
+    border: 1px solid;
     border-radius: 7px;
     transition: all 300ms ease;
 }
 
 a:hover {
-    background: yellowgreen;
-    color: darkblue;
+    background: darkblue;
+    color: greenyellow;
 }
 
 /******************************************DETAILS*************************************/
@@ -93,6 +101,7 @@ a:hover {
     align-items: center;
     flex-wrap: wrap;
     border: 5px groove;
+    box-shadow: 5px 5px 10px darkblue;
 }
 
 .post-block {
@@ -101,6 +110,8 @@ a:hover {
 }
 
 .post-block .list {
+    margin: 0 0 0 30px;
+    padding-left: 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -111,19 +122,24 @@ a:hover {
     flex-basis: 50%;
 }
 
+.list li a {
+    margin-left: 5px;
+}
+
 .info-block {
     min-height: 56px;
     flex-basis: 18%;
     text-align: center;
     border: inset;
+    color: darkblue;
 }
 
 button {
     width: 135px;
     padding: 5px;
     align-self: center;
-    background: darkblue;
-    color: yellow;
+    background: lightgrey;
+    color: black;
     cursor: pointer;
     transition: all 300ms ease;
     border: 3px outset;
@@ -131,8 +147,8 @@ button {
 }
 
 button:hover {
-    background: yellowgreen;
-    color: darkblue;
+    background: darkblue;
+    color: greenyellow;
 }
 
 /******************************************POSTS***************************************/
@@ -147,6 +163,11 @@ button:hover {
 .post-info {
     padding: 0 40px;
     border: 2px groove;
+    box-shadow: 10px 10px 15px darkblue;
+}
+
+.post-info p {
+    color: darkblue;
 }
 
 .post-info ul {
