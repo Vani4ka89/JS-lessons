@@ -9,12 +9,6 @@ body {
     font-size: 16px;
 }
 
-.flex-content {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-
 .wrap-params {
     height: 100%;
     max-width: 1200px;
@@ -22,7 +16,6 @@ body {
 }
 
 /*************************************USERS*******************************************/
-
 .wrapper {
     margin: 0 auto;
     display: flex;
@@ -105,12 +98,12 @@ a:hover {
 }
 
 .post-block {
-    margin-top: 50px;
+    margin-top: 80px;
     width: 100%;
 }
 
 .post-block .list {
-    margin: 0 0 0 30px;
+    margin: 0 0 0 50px;
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -154,16 +147,20 @@ button:hover {
 /******************************************POSTS***************************************/
 
 .wrapper-3 {
-    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .post-info {
-    padding: 0 40px;
+    min-width: 75%;
+    padding: 10px 30px;
     border: 2px groove;
+    background-color: azure;
     box-shadow: 10px 10px 15px darkblue;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .post-info p {
@@ -172,4 +169,12 @@ button:hover {
 
 .post-info ul {
     padding-left: 0;
+    font-style: italic;
+    font-size: 14px;
+    list-style: circle;
+}
+
+.post-info span {
+    color: indigo;
+    font-family: cursive;
 }

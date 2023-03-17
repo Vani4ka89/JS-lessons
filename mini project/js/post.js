@@ -16,10 +16,14 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
         fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
             .then(value => value.json())
             .then(comments => {
+                console.log(comments);
                 const list = document.createElement('ul');
                 for (const comment of comments) {
                     const item = document.createElement('li');
-                    item.innerText = `${comment.body}. ${comment.email}`;
+                    item.innerText = `${comment.body}. `;
+                    const span = document.createElement('span');
+                    span.innerText = `${comment.email}`
+                    item.appendChild(span);
                     list.appendChild(item);
                     wrap.appendChild(list);
                 }
