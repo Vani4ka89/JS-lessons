@@ -8,24 +8,23 @@ const postId = url.searchParams.get('postId');
 fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
     .then(value => value.json())
     .then(post => {
-        const wrap = document.getElementsByClassName('post-info')[0];
+        const postInfo = document.getElementsByClassName('post-info')[0];
         const p = document.createElement('p');
         p.innerText = `${post.body}`;
-        wrap.appendChild(p);
+        postInfo.appendChild(p);
 
         fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
             .then(value => value.json())
             .then(comments => {
-                console.log(comments);
                 const list = document.createElement('ul');
                 for (const comment of comments) {
+                    const span = document.createElement('span');
+                    span.innerText = `_${comment.email}`;
                     const item = document.createElement('li');
                     item.innerText = `${comment.body}. `;
-                    const span = document.createElement('span');
-                    span.innerText = `${comment.email}`
                     item.appendChild(span);
                     list.appendChild(item);
-                    wrap.appendChild(list);
+                    postInfo.appendChild(list);
                 }
             })
     })

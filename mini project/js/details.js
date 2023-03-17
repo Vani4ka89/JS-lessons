@@ -10,7 +10,6 @@ const userId = url.searchParams.get('userId');
 fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(value => value.json())
     .then(user => {
-        console.log(user);
         const mainBlock = document.getElementsByClassName('wrapper-2')[0];
 
         function getInfoFromUser(user) {
@@ -20,7 +19,9 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                 } else {
                     const infoBlock = document.createElement('div');
                     infoBlock.classList.add('info-block');
-                    infoBlock.innerText = `${key}: ${user[key]}`;
+                    const h4 = document.createElement('h4');
+                    h4.innerText = `${key}: ${user[key]}`;
+                    infoBlock.appendChild(h4);
                     mainBlock.appendChild(infoBlock);
                 }
             }
@@ -42,7 +43,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                 container.appendChild(btn);
                 titles.appendChild(list);
 
-                const showPosts = function () {
+                const showPostsTitles = function () {
                     for (const post of posts) {
                         const item = document.createElement('li');
                         item.innerText = `${post.title}`;
@@ -55,7 +56,7 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
                     // btn.removeEventListener('click', showPosts);
                     btn.style.display = 'none';
                 }
-                btn.addEventListener('click', showPosts);
+                btn.addEventListener('click', showPostsTitles);
 
             })
     })

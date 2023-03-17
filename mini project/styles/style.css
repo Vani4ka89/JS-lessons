@@ -39,6 +39,7 @@ body {
 
 .user-block:hover {
     border: 2px solid darkblue;
+    font-weight: bold;
 }
 
 .reference {
@@ -87,7 +88,7 @@ a:hover {
 
 .wrapper-2 {
     width: 99%;
-    height: 35%;
+    min-height: 45%;
     margin-top: 50px;
     display: flex;
     justify-content: space-around;
@@ -103,7 +104,7 @@ a:hover {
 }
 
 .post-block .list {
-    margin: 0 0 0 50px;
+    margin: 0 0 0 70px;
     padding-left: 0;
     display: flex;
     justify-content: space-between;
@@ -123,8 +124,16 @@ a:hover {
     min-height: 56px;
     flex-basis: 18%;
     text-align: center;
+    font-weight: bold;
     border: inset;
     color: darkblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-block h4 {
+    margin: 0;
 }
 
 button {
@@ -147,12 +156,14 @@ button:hover {
 /******************************************POSTS***************************************/
 
 .wrapper-3 {
+    margin: 0 auto;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .post-info {
+    height: 80%;
     min-width: 75%;
     padding: 10px 30px;
     border: 2px groove;
@@ -160,21 +171,30 @@ button:hover {
     box-shadow: 10px 10px 15px darkblue;
     display: flex;
     flex-direction: column;
+    justify-content: space-around;
     align-items: center;
 }
 
 .post-info p {
     color: darkblue;
+    font-weight: bold;
 }
 
 .post-info ul {
     padding-left: 0;
     font-style: italic;
     font-size: 14px;
-    list-style: circle;
+    list-style: none;
+    display: flex;
+    gap: 10px;
+}
+
+.post-info ul::before {
+    content: 'Comments:';
 }
 
 .post-info span {
     color: indigo;
     font-family: cursive;
+    font-weight: bold;
 }
