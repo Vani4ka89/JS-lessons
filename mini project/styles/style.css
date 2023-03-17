@@ -200,6 +200,11 @@ a {
     content: 'Comments:';
 }
 
+.post-info ul li {
+    padding: 5px;
+    border: groove;
+}
+
 .post-info span {
     color: indigo;
     font-family: cursive;
