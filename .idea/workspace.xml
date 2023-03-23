@@ -4,8 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="start to do mini_project">
+    <list default="true" id="7d3c3a68-bcad-4763-a9ff-3bf50cc26e77" name="Changes" comment="done mini_project.">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_12/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/js/main.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_12/js/us-details.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_12/js/us-details.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lesson_9/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/lesson_9/js/main.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,6 +87,9 @@
       <workItem from="1678619360170" duration="55663000" />
       <workItem from="1678801958796" duration="1408000" />
       <workItem from="1678803441441" duration="18000" />
+      <workItem from="1678803466478" duration="67378000" />
+      <workItem from="1679090416413" duration="17000" />
+      <workItem from="1679579423881" duration="4023000" />
     </task>
     <task id="LOCAL-00001" summary="new project js lesson_1">
       <created>1675524338203</created>
@@ -225,16 +231,97 @@
       <option name="project" value="LOCAL" />
       <updated>1678802241125</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="start to do mini_project...">
+      <created>1678835704069</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1678835704069</updated>
+    </task>
+    <task id="LOCAL-00022" summary="start to do mini_project....">
+      <created>1678836431251</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1678836431251</updated>
+    </task>
+    <task id="LOCAL-00023" summary="made lesson_12&#10;start to do mini_project....">
+      <created>1678837971862</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1678837971862</updated>
+    </task>
+    <task id="LOCAL-00024" summary="made lesson_12.&#10;start to do mini_project....">
+      <created>1678887250182</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1678887250182</updated>
+    </task>
+    <task id="LOCAL-00025" summary="made lesson_12...&#10;start to do mini_project....">
+      <created>1678887592205</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1678887592205</updated>
+    </task>
+    <task id="LOCAL-00026" summary="made lesson_12...&#10;start to do mini_project.">
+      <created>1678982749415</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1678982749415</updated>
+    </task>
+    <task id="LOCAL-00027" summary="made lesson_12.&#10;start to do mini_project.">
+      <created>1678985440641</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1678985440641</updated>
+    </task>
+    <task id="LOCAL-00028" summary="made lesson_12.&#10;start to do mini_project...">
+      <created>1679008368095</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1679008368095</updated>
+    </task>
+    <task id="LOCAL-00029" summary="made lesson_12&#10;start to do mini_project...">
+      <created>1679042768374</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1679042768390</updated>
+    </task>
+    <task id="LOCAL-00030" summary="done mini_project.">
+      <created>1679059977385</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1679059977385</updated>
+    </task>
+    <task id="LOCAL-00031" summary="done mini_project">
+      <created>1679063074513</created>
+      <option name="number" value="00031" />
+      <option name="presentableId" value="LOCAL-00031" />
+      <option name="project" value="LOCAL" />
+      <updated>1679063074513</updated>
+    </task>
+    <task id="LOCAL-00032" summary="done mini_project.">
+      <created>1679064526074</created>
+      <option name="number" value="00032" />
+      <option name="presentableId" value="LOCAL-00032" />
+      <option name="project" value="LOCAL" />
+      <updated>1679064526074</updated>
+    </task>
+    <option name="localTasksCounter" value="33" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="new project js lesson_1" />
-    <MESSAGE value="js lesson_1 homework" />
-    <MESSAGE value="js lesson_0 homework&#10;js lesson_1 homework&#10;js lesson_2 homework" />
     <MESSAGE value="js lesson_1 homework&#10;js lesson_2 homework&#10;js lesson_3 homework&#10;js lesson_4 homework" />
     <MESSAGE value="js lesson_1 homework&#10;js lesson_2 homework&#10;js lesson_3 homework&#10;js lesson_4 homework..." />
     <MESSAGE value="js lesson_1 homework done&#10;js lesson_2 homework done&#10;js lesson_3 homework done&#10;js lesson_4 homework done&#10;js lesson_5 homework done" />
@@ -249,6 +336,17 @@
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done..&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not..." />
     <MESSAGE value="js lesson_1 homework done.&#10;js lesson_2 homework done.&#10;js lesson_3 homework done.&#10;js lesson_4 homework done.&#10;js lesson_5 homework done.&#10;js lesson_6 homework done.&#10;js lesson_7 without homework.&#10;js lesson_8 homework done...&#10;js lesson_9 homework not full.&#10;js lesson_10 homework not..." />
     <MESSAGE value="start to do mini_project" />
-    <option name="LAST_COMMIT_MESSAGE" value="start to do mini_project" />
+    <MESSAGE value="start to do mini_project..." />
+    <MESSAGE value="start to do mini_project...." />
+    <MESSAGE value="made lesson_12&#10;start to do mini_project...." />
+    <MESSAGE value="made lesson_12.&#10;start to do mini_project...." />
+    <MESSAGE value="made lesson_12...&#10;start to do mini_project...." />
+    <MESSAGE value="made lesson_12...&#10;start to do mini_project." />
+    <MESSAGE value="made lesson_12.&#10;start to do mini_project." />
+    <MESSAGE value="made lesson_12.&#10;start to do mini_project..." />
+    <MESSAGE value="made lesson_12&#10;start to do mini_project..." />
+    <MESSAGE value="done mini_project" />
+    <MESSAGE value="done mini_project." />
+    <option name="LAST_COMMIT_MESSAGE" value="done mini_project." />
   </component>
 </project>

@@ -10,15 +10,15 @@ fetch('https://jsonplaceholder.typicode.com/users')
         for (const user of users) {
             const userBlock = document.createElement('div');
             userBlock.classList.add('user-block');
-            userBlock.innerText = `${user.id}.  ${user.name}`;
+            userBlock.innerText = `${user.id}. ${user.name}`;
 
             const a = document.createElement('a');
             a.classList.add('reference');
             a.innerText = 'more info';
-            a.href = `user-details.html?userId=${user.id}`;
+            a.href = 'user-details.html?userId=' + user.id;
 
             userBlock.appendChild(a);
-            wrapper.append(userBlock);
+            wrapper.appendChild(userBlock);
         }
     })
 

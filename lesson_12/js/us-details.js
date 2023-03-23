@@ -21,6 +21,4 @@ fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
         }
 
         getInfo(user);
-
-
     })

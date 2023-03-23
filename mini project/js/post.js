@@ -5,13 +5,13 @@
 const url = new URL(location.href);
 const postId = url.searchParams.get('postId');
 
-fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
+fetch('https://jsonplaceholder.typicode.com/posts/' + postId)
     .then(value => value.json())
     .then(post => {
         const postInfo = document.getElementsByClassName('post-info')[0];
-        const p = document.createElement('p');
-        p.innerText = `${post.body}`;
-        postInfo.appendChild(p);
+        const description = document.createElement('p');
+        description.innerText = post.body;
+        postInfo.appendChild(description);
 
         fetch(`https://jsonplaceholder.typicode.com/posts/${postId}/comments`)
             .then(value => value.json())
@@ -19,12 +19,12 @@ fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
                 const list = document.createElement('ul');
                 for (const comment of comments) {
                     const span = document.createElement('span');
-                    span.innerText = `_${comment.email}`;
+                    span.innerText = '_' + comment['email'];
                     const item = document.createElement('li');
-                    item.innerText = `${comment.body}. `;
+                    item.innerText = comment.body + '.';
                     item.appendChild(span);
                     list.appendChild(item);
-                    postInfo.appendChild(list);
                 }
+                    postInfo.appendChild(list);
             })
     })
