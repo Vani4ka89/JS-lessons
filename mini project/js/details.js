@@ -7,7 +7,7 @@
 const url = new URL(location.href);
 const userId = url.searchParams.get('userId');
 
-fetch('https://jsonplaceholder.typicode.com/users/' + userId)
+fetch(`https://jsonplaceholder.typicode.com/users/${userId}`)
     .then(value => value.json())
     .then(user => {
         const mainBlock = document.getElementsByClassName('main-block')[0];
@@ -49,7 +49,7 @@ fetch('https://jsonplaceholder.typicode.com/users/' + userId)
                         item.innerText = post.title;
                         const a = document.createElement('a');
                         a.innerText = 'details';
-                        a.href = 'post-details.html?postId=' + post.id;
+                        a.href = `post-details.html?postId=${post.id}`;
                         list.appendChild(item);
                         item.appendChild(a);
                     }

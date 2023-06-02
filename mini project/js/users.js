@@ -6,7 +6,7 @@
 fetch('https://jsonplaceholder.typicode.com/users')
     .then(value => value.json())
     .then(users => {
-        const wrapper = document.getElementsByClassName('wrapper')[0];
+        const wrapper = document.getElementsByClassName('wrapper-a')[0];
         for (const user of users) {
             const userBlock = document.createElement('div');
             userBlock.classList.add('user-block');
@@ -15,7 +15,7 @@ fetch('https://jsonplaceholder.typicode.com/users')
             const a = document.createElement('a');
             a.classList.add('reference');
             a.innerText = 'more info';
-            a.href = 'user-details.html?userId=' + user.id;
+            a.href = `user-details.html?userId=${user.id}`;
 
             userBlock.appendChild(a);
             wrapper.appendChild(userBlock);

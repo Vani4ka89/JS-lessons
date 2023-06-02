@@ -5,7 +5,7 @@
 const url = new URL(location.href);
 const postId = url.searchParams.get('postId');
 
-fetch('https://jsonplaceholder.typicode.com/posts/' + postId)
+fetch(`https://jsonplaceholder.typicode.com/posts/${postId}`)
     .then(value => value.json())
     .then(post => {
         const postInfo = document.getElementsByClassName('post-info')[0];
